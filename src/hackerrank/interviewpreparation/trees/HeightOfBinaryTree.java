@@ -1,9 +1,6 @@
 package hackerrank.interviewpreparation.trees;
 
-import java.util.*;
-import java.io.*;
-
-class HeightOfBinaryTree {
+public class HeightOfBinaryTree {
 
     class Node {
         Node left;
@@ -34,5 +31,9 @@ class HeightOfBinaryTree {
 
         //return bigger height
         return Math.max(leftHeight, rightHeight);
+    }
+
+    public static void main(String[] args) {
+
     }
 }
