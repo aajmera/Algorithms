@@ -17,8 +17,6 @@ public class ValidBinarySearchTree {
         }
     }
 
-    Integer temp;
-
     public boolean isValidBST(Node root) {
 
         if(root == null) return true;
